@@ -24,3 +24,22 @@ def test_longest_palindromic_substring_3():
     actual_output = longest_palindromic_substring(input_str)
     assert actual_output == expected_output_1 or actual_output == expected_output_2
 
+def test_longest_palindromic_substring_4():
+
+    input_str= "ac"
+    expected_output_1 = ("a")
+    expected_output_2 = ("c")
+
+    actual_output = longest_palindromic_substring(input_str)
+    assert actual_output == expected_output_1 or actual_output == expected_output_2
+
+def test_longest_palindromic_substring_5():
+    input_str= "a"
+    expected_output = ("a")
+
+    actual_output = longest_palindromic_substring(input_str)
+    assert actual_output == expected_output
+
+
+
+
